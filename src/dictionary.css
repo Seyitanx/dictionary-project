@@ -1,7 +1,17 @@
-.dictionary{
-    text-align: center;
+.dictionary section{
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 16px;
+  margin: 20px 0;
    
 }
 h1, h2, h3, p{
-    color: blueviolet;
+    color: burlywood;
+}
+
+.dictionary input{
+    width: 100%;
+    border-radius: 6px;
+    padding: 6px 4px;
+    border: 2px solid whitesmoke;
 }

@@ -23,11 +23,13 @@ let [results, setResults] = useState(null);
   }
 
   return (
-    <div >
-      <form className="dictionary"  onSubmit={search}>
+    <div className="dictionary">
+      <section>
+      <form onSubmit={search}>
         <input type="search" onChange={handleChange} autoFocus={true} />
       </form>
       <Result results={results}/>
+      </section>
     </div>
   );
 }

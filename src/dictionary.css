@@ -1,12 +1,16 @@
 .dictionary section{
   background-color: whitesmoke;
   padding: 30px;
-  border-radius: 16px;
+  border-radius: 15px;
   margin: 20px 0;
-   
+ box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
 }
 h1, h2, h3, p{
-    color: burlywood;
+    color: rgb(126, 104, 78);
+}
+.hint{
+    font-size: small;
+    color: rgb(126, 104, 78);
 }
 
 .dictionary input{

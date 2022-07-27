@@ -25,11 +25,14 @@ let [results, setResults] = useState(null);
   return (
     <div className="dictionary">
       <section>
-      <form onSubmit={search}>
-        <input type="search" onChange={handleChange} autoFocus={true} />
-      </form>
-      <Result results={results}/>
+        <form onSubmit={search}>
+          <input type="search" onChange={handleChange} autoFocus={true} />
+        </form>
+        <div className="hint">
+          suggested words: sunset, love, yoga, wisdom...
+        </div>
       </section>
+      <Result results={results} />
     </div>
   );
 }

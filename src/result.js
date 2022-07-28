@@ -11,21 +11,17 @@ export default function Result(props) {
           <h2>{props.results.word}</h2>
           {props.results.phonetics.map(function (phonetic, index) {
             return (
-              <div className="phonetic">
-                <div key={index}>
-                  <Phonetic phonetic={phonetic} />
-                </div>
+              <div key={index}>
+                <Phonetic phonetic={phonetic} />
               </div>
             );
           })}
         </section>
         {props.results.meanings.map(function (meaning, index) {
           return (
-            <div className="meaning">
-              <section key={index}>
-                <Meaning meaning={meaning} />
-              </section>
-            </div>
+            <section key={index}>
+              <Meaning meaning={meaning} />
+            </section>
           );
         })}
       </div>

@@ -1,21 +1,30 @@
 .dictionary section{
-  background-color: whitesmoke;
+  background-color:purple;
   padding: 30px;
   border-radius: 15px;
   margin: 20px 0;
- box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+ box-shadow: 0 2px 5px rgb(252, 251, 252);
 }
 h1, h2, h3, p{
-    color: rgb(126, 104, 78);
+    color:white;
 }
 .hint{
     font-size: small;
-    color: rgb(126, 104, 78);
+    color: white;
+    margin-top: 5px;
 }
 
 .dictionary input{
     width: 100%;
     border-radius: 6px;
     padding: 6px 4px;
-    border: 2px solid whitesmoke;
+    border: 2px solid purple;
 }
+
+
+.results h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+

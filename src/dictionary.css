@@ -42,3 +42,16 @@ p {
     font-size: 14px;
     font-style: italic;
 }
+
+.synonyms{
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.synonyms li{
+    font-size: 13px;
+    line-height: 1;
+    display: inline-block;
+    padding-right: 15px;
+    color: antiquewhite;
+}

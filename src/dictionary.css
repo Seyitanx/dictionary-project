@@ -3,7 +3,7 @@
   padding: 30px;
   border-radius: 15px;
   margin: 20px 0;
-  box-shadow: 0 2px 5px rgb(252, 251, 252);
+  box-shadow: 1px 2px 2px pink;
 }
 h1,
 h2,
@@ -41,6 +41,7 @@ p {
     color: pink;
     font-size: 14px;
     font-style: italic;
+    margin-top: 10px;
 }
 
 .synonyms{

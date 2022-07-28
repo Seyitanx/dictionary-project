@@ -39,7 +39,7 @@ function load() {
       <section>
         <h2>what word would you like to search for?</h2>
         <form onSubmit={handleSubmit}>
-          <input type="search" onChange={handleChange} autoFocus={true} />
+          <input type="search" onChange={handleChange} autoFocus={true} defaultValue={props.defaultKeyword} />
         </form>
         <div className="hint">
           suggested words: beach, love, yoga, wisdom...
